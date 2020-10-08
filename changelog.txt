@@ -1,0 +1,12 @@
+v0.1.0 basic chatting with bot features are working
+
+v0.1.1 basic join squad application structure working
+
+v0.1.2 basic suggest structure working, and integrated agents.json
+
+v0.1.3 DMs both admin and user once suggestion has been made, stores
+suggestions in json, small bugs fixed, made code little cleaner
+
+v0.1.4 lot of bugs fixed involving suggestions command. suggestions storage
+method has been changed. partially completed the commands for admin such as
+?info, ?load, ?approve to approve the data suggested by user.

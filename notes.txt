@@ -1,0 +1,6 @@
+credits system:
+bad: 0
+ok: 20
+good: 50
+supreme: 100
+

@@ -1,0 +1,111 @@
+{
+	"fortune cookie": {
+		"title":"Fortune Cookie",
+		"emoji":":fortune_cookie:",
+		"cost":150,
+		"type":"items",
+		"xp":5,
+		"description":"A crisp and sugary folded biscuit, in which lies a paper that claims to foretell your future",
+		"gifs":["https://tenor.com/view/sesame-street-cookie-monster-cookies-cookies-ready-cookie-day-gif-17986678"]
+	},
+	"cookie": {
+		"title":"Cookie",
+		"emoji":":cookie:",
+		"cost":50,
+		"type":"items",
+		"xp":2,
+		"description":"a flat, baked confection filled with chocolate chips and practically melts in your mouth",
+		"gifs":["https://tenor.com/view/eatthatcookie-gif-10982703","https://tenor.com/view/cookies-enjoy-chocolate-chip-cookie-gif-11797931","https://tenor.com/view/cookie-cookies-keks-kekse-kruemelmonster-gif-10055301","https://tenor.com/view/chocolate-chips-cookies-chocolate-chips-gif-4131547"],
+		"reactions":["I think you had too much sugar for the day :O","OOOOH that chocolate tastes sooo goodd","OM NOM NOM NOM..","You ate the cookie almost instantly"]
+	},
+	"pizza": {
+		"title":"Pizza",
+		"emoji":":pizza:",
+		"cost":100,
+		"xp":4,
+		"type":"items",
+		"description":"a baked, savory dish consisting of a flattened base of leavened wheat-based dough topped with tomatoes, cheese, and other ingredients",
+		"gifs":["https://tenor.com/view/pizza-party-dance-dancing-gif-10213545","https://tenor.com/view/donald-trump-puzza-eating-crust-first-gif-5027070","https://tenor.com/view/pizza-food-veggie-vegetable-gif-3425302","https://tenor.com/view/kirby-pizza-pizza-lover-eating-cute-gif-16204644"],
+		"reactions":["You consumed a pizza and became happy","oooooo that pizza was yummy wasnt it?","You just ate a pizza and became fat"]
+	},
+	"daisy trophy": {
+		"title":"Daisy Trophy",
+		"emoji":":trophy:",
+		"cost":5000,
+		"xp":300,
+		"type":"trophies",
+		"description":"this prize topped with a gilded bronze daisy is a testament to your wealth and skill"
+	},
+	"daisy gold trophy": {
+		"title":"Daisy Gold Trophy",
+		"emoji":":star2:  :trophy:",
+		"cost":90000,
+		"xp":2000,
+		"type":"trophies",
+		"description":"this cup holding a pure gold daisy flaunts your affluence and proficiency"
+	},
+	"daisy platinum trophy": {
+		"title":"Daisy Platinum Trophy",
+		"emoji":":blossom: :trophy:",
+		"cost":1000000,
+		"xp":400000,
+		"type":"trophies",
+		"description":"the pinnacle of daisy trophies, this medal emblazoned with a daisy crafted of platinum immediately demonstrates how opulent and accomplished you are"
+	},
+	"xp booster": {
+		"title":"Xp Booster",
+		"emoji":":star2:",
+		"cost":5000,
+		"xp":-404,
+		"type":"items",
+		"description":"this item increases the rate you gain experience, allowing you to be more efficient and earn more in a shorter amount of time"
+	},
+	"wooden sword": {
+		"title":"Wooden Sword",
+		"emoji":":chopsticks:",
+		"cost":200,
+		"xp":5,
+		"type":"weapons",
+		"description":"this toy weapon still hurts a bit if you hit something hard enough"
+	},
+	"iron sword": {
+		"title":"Iron Sword",
+		"emoji":":crossed_swords:",
+		"cost":5000,
+		"xp":100,
+		"type":"weapons",
+		"description":"this metal blade can easily cut through those who stand in your way"
+	},
+	"diamond sword": {
+		"title":"Diamond Sword",
+		"emoji":":diamond_shape_with_a_dot_inside: :crossed_swords:",
+		"cost":70000,
+		"xp":5000,
+		"type":"weapons",
+		"description":"contrary to popular belief, a diamond sword is not constructed solely of diamond, but with a fine, honed diamond edge, more powerful and sharper than the previous weapons"
+	},
+	"house": {
+		"title":"House",
+		"emoji":":house:",
+		"cost":700000,
+		"type":"houses",
+		"xp":50000,
+		"description":"your average two bedroom two bathroom house, nothing fancy about it"
+	},
+	"mansion": {
+		"title":"Mansion",
+		"emoji":":hotel:",
+		"cost":11000000,
+		"type":"houses",
+		"xp":1000000,
+		"description":"boasting three floors and a host of rooms, the mansion immediately stands out as a step above the house"
+	},
+	"daisy merch": {
+		"title":"Daisy Merch",
+		"emoji":":shirt: :handbag:",
+		"cost":1000,
+		"type":"trophies",
+		"xp":100,
+		"description":"a tote bag and a hoodie with daisy on it to show how much of a daisy supporter you are"
+	}
+}

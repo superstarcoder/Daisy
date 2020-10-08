@@ -1,0 +1,78 @@
+{
+    "519711492417912837": {
+        "xp": 0,
+        "coins": 0,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "308404126830559233": {
+        "xp": 4,
+        "coins": 400,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "545063650088452127": {
+        "admin": "danny",
+        "xp": 381,
+        "coins": 18250,
+        "suggestionCount": 9,
+        "approvedSuggestionCount": 5,
+        "warnings": 11,
+        "items": [
+            "cookie",
+            "cookie"
+        ],
+        "houses": [],
+        "weapons": [
+            "wooden sword"
+        ],
+        "trophies": [
+            "daisy trophy"
+        ]
+    },
+    "517510627120644106": {
+        "xp": 0,
+        "coins": 0,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "420087963024621588": {
+        "xp": 16,
+        "coins": 150,
+        "suggestionCount": 1,
+        "approvedSuggestionCount": 1,
+        "warnings": 0,
+        "items": [
+            "fortune cookie"
+        ],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "746194392062361732": {
+        "xp": 0,
+        "coins": 0,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    }
+}
