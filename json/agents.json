@@ -24,13 +24,14 @@
     "545063650088452127": {
         "admin": "danny",
         "xp": 381,
-        "coins": 18250,
+        "coins": 18150,
         "suggestionCount": 9,
         "approvedSuggestionCount": 5,
         "warnings": 11,
         "items": [
             "cookie",
-            "cookie"
+            "cookie",
+            "pizza"
         ],
         "houses": [],
         "weapons": [

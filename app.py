@@ -9,7 +9,7 @@ import json
 from emoji import UNICODE_EMOJI
 from discord.ext import commands
 import sys, traceback
-from os import listdir
+from os import listdir, environ
 from os.path import isfile, join
 
 #pf = ProfanityFilter()
@@ -71,5 +71,7 @@ async def on_ready():
 
     print(f'\n\nLogged in as: {bot.user.name} - {bot.user.id}\nVersion: {discord.__version__}\n')
 
-TOKEN = "NzM1Njc5NTExMjEwNzU0MTgx.XxjyIg.JKXEoDCRZjdCFMwzeD_Px3SuzUQ"
+#TOKEN = "NzM1Njc5NTExMjEwNzU0MTgx.XxjyIg.JKXEoDCRZjdCFMwzeD_Px3SuzUQ"
+TOKEN = environ['DISCORD_TOKEN']
+print(TOKEN)
 bot.run(TOKEN)
