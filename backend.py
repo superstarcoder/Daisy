@@ -14,8 +14,17 @@ import random
 #intents = json.loads(open('json/intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
+intents = json.loads(open('json/intents.json').read())
+
 with open('json/abbrevs.json') as f:
     data = json.load(f)
+
+def reloadModel():
+    global model, words, classes, intents
+    model = load_model('chatbot_model.h5')
+    words = pickle.load(open('words.pkl', 'rb'))
+    classes = pickle.load(open('classes.pkl', 'rb'))
+    intents = json.loads(open('json/intents.json').read())
 
 def clean_up_sentence(sentence):
     # tokenize the pattern - split words into array
@@ -56,12 +65,9 @@ def predict_class(sentence, model):
 def getResponse(ints, intents_json, msg, varsDict):
     
 
-    print(ints)
     tag = ints[0]['intent']
     print(ints[0]['probability'])
     list_of_intents = intents_json['intents']
-    print("ye")
-    print(list_of_intents)
     result=""
     for i in list_of_intents:
         if(i['tag']== tag):
@@ -75,7 +81,7 @@ def getResponse(ints, intents_json, msg, varsDict):
     #search wikepedia/google
     elif "search wiki" in msg:
         text = msg.replace("search wiki", "")
-        result = wk.summary(text, sentences = 3)
+        result = wk.summary(text, sentences=3)
     #if msg isnt understood
     elif float(ints[0]['probability'])*100 < 88:
         result = "//confused"
@@ -86,17 +92,13 @@ def getResponse(ints, intents_json, msg, varsDict):
     #replace vars
     #example: %name%
     for key in varsDict:
-        print(key, varsDict[key])
+        #print(key, varsDict[key])
         result = result.replace(key, varsDict[key])
 
     return result
 
 def chatbot_response(msg, varsDict):
-    global words, classes
-    intents = json.loads(open('json/intents.json').read())
-    model = load_model('chatbot_model.h5')
-    words = pickle.load(open('words.pkl','rb'))
-    classes = pickle.load(open('classes.pkl','rb'))
+    #model = load_model('chatbot_model.h5')
 #read json
     
 
@@ -105,7 +107,6 @@ def chatbot_response(msg, varsDict):
     for key, value in data.items():
         temp = [key,value]
         dictlist.append(temp)
-    print(dictlist)
 
 
     msg = msg.lower()

@@ -8,21 +8,20 @@ class SwitchCog(commands.Cog):
         self.bot = bot
 
     @commands.command(name='turn')
-    @commands.Cog.listener()    
+    @commands.Cog.listener()
     async def on_message(self, message):
         bans = gv.readFile("bans.json")
         if str(message.author.id) in bans:
-            await self.bot.get_user(message.author.id).send("You cannot do any agent commands since you have been banned! Please talk to danny to negotiate.")
+            await self.bot.get_user(message.author.id).send(
+                "You cannot do any agent commands since you have been banned! Please talk to danny to negotiate.")
             return
 
-
-        print(message.message)
         msg = message.message.content.split()
         if message.author == self.bot.user:
             return
 
         elif msg[1] == "on":
-        #if user has daisy role
+            # if user has daisy role
             if message.guild == None or any("daisy" == x.name for x in message.author.roles):
                 data = gv.readFile("setupLocs.json")
                 data[str(message.channel.id)] = "ON"
@@ -45,9 +44,8 @@ class SwitchCog(commands.Cog):
             else:
                 await message.channel.send("you can turn me off only if you have the daisy role :<")
 
-    @commands.Cog.listener()    
+    @commands.Cog.listener()
     async def temp(self, message):
-        print(message)
         msg = message.content.split()
         msg2 = message.content
         if message.author == self.bot.user:

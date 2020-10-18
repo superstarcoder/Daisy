@@ -20,7 +20,8 @@
             "tag": "how",
             "patterns": [
                 "how are you doing?",
-                "are you good?"
+                "are you good?",
+                "how are you"
             ],
             "responses": [
                 "i'm doing good, thanks for asking!",
@@ -161,7 +162,9 @@
             ],
             "responses": [
                 "haha thanks",
+                "and you're so sweet",
                 "no you!!",
+                "all you!!",
                 "haha i'm still trying to get better",
                 "thanks man"
             ]
@@ -342,6 +345,19 @@
             ],
             "id": 545063650088452127,
             "tag": "wyd"
+        },
+        {
+            "patterns": [
+                "you're really funny",
+                "lol u make me laugh",
+                "thanks for making me laugh"
+            ],
+            "responses": [
+                "ayyy im glad i can make you laugh",
+                "lmaooooo im glad i can make you laugh"
+            ],
+            "id": 545063650088452127,
+            "tag": "daisyIsFunny"
         }
     ]
 }

@@ -21,27 +21,6 @@
         "weapons": [],
         "trophies": []
     },
-    "545063650088452127": {
-        "admin": "danny",
-        "xp": 501,
-        "coins": 18600,
-        "suggestionCount": 16,
-        "approvedSuggestionCount": 11,
-        "warnings": 11,
-        "items": [
-            "cookie",
-            "cookie",
-            "pizza",
-            "fortune cookie"
-        ],
-        "houses": [],
-        "weapons": [
-            "wooden sword"
-        ],
-        "trophies": [
-            "daisy trophy"
-        ]
-    },
     "517510627120644106": {
         "xp": 0,
         "coins": 0,
@@ -67,6 +46,17 @@
         "trophies": []
     },
     "746194392062361732": {
+        "xp": 0,
+        "coins": 0,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "545063650088452127": {
         "xp": 0,
         "coins": 0,
         "suggestionCount": 0,

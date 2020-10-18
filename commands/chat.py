@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 import globalVars as gv
-#from profanity_check import predict, predict_prob
+# from profanity_check import predict, predict_prob
 import backend
 import random
 
@@ -10,20 +10,20 @@ class ChatCog(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
 
-    @commands.Cog.listener()    
+    @commands.Cog.listener()
     async def on_message(self, message):
-        confused = ["i'm not sure i understand bro","lol what","huh","??","what do you mean","sorry i dont understand..","lol im confused"]
-        print(message)
+        confused = ["wdym", "lol what", "huh", "im kinda lost rn", "what do you mean", "wait what",
+                    "lol what are you trying to say"]
         msg = message.content.split()
         msg2 = message.content
         if message.author == self.bot.user:
             return
-    
+
         if message.content[0] != "?" and (not (message.author.id in gv.chain)):
             data = gv.readFile("setupLocs.json")
             user = self.bot.get_user(int(message.author.id))
             user = user.name
-            varsDict = {"%name%":user}
+            varsDict = {"%name%": user}
 
             if (str(message.channel.id) in data) and data[str(message.channel.id)] == "ON":
                 if not (message.author.id in gv.silence):
@@ -39,6 +39,9 @@ class ChatCog(commands.Cog):
                     if not (message.author.id in gv.silence):
                         gv.silence.append(message.author.id)
                         await message.channel.send(random.choice(confused))
+                        agents = gv.readFile("agents.json")
+                        if not (str(message.author.id) in agents):
+                            await message.channel.send("NOTE: if you wanna help me become smarter, type `?suggest`")
 
                 else:
                     await message.channel.send(msg)
@@ -50,4 +53,3 @@ class ChatCog(commands.Cog):
 # When we load the cog, we use the name of the file.
 def setup(bot):
     bot.add_cog(ChatCog(bot))
-
