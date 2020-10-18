@@ -265,7 +265,7 @@
                 "what is the weather"
             ],
             "responses": [
-                "idk how the weather is. ima ask danny to impliment that soon"
+                "//weather"
             ]
         },
         {
@@ -302,6 +302,46 @@
             ],
             "id": 545063650088452127,
             "tag": "casualDamnStuff"
+        },
+        {
+            "patterns": [
+                "pog",
+                "okay",
+                "yay"
+            ],
+            "responses": [
+                "aight pog",
+                "pog"
+            ],
+            "id": 545063650088452127,
+            "tag": "poggers"
+        },
+        {
+            "patterns": [
+                "what ide should i use?",
+                "what text editor should i use?",
+                "what should i code in?"
+            ],
+            "responses": [
+                "you should use intelliJ to code because its really good",
+                "please code in intelliJ cuz the creator of this bot himself actually codes in intelliJ"
+            ],
+            "id": 545063650088452127,
+            "tag": "textEditorIntelliJ"
+        },
+        {
+            "patterns": [
+                "what are you doing?",
+                "wyd",
+                "watchu on?"
+            ],
+            "responses": [
+                "I'm tryna act like a human",
+                "I am learning how to communicate with humans",
+                "learning."
+            ],
+            "id": 545063650088452127,
+            "tag": "wyd"
         }
     ]
 }

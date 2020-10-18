@@ -11,10 +11,10 @@
         "trophies": []
     },
     "308404126830559233": {
-        "xp": 4,
-        "coins": 400,
-        "suggestionCount": 0,
-        "approvedSuggestionCount": 0,
+        "xp": 24,
+        "coins": 500,
+        "suggestionCount": 1,
+        "approvedSuggestionCount": 1,
         "warnings": 0,
         "items": [],
         "houses": [],
@@ -23,15 +23,16 @@
     },
     "545063650088452127": {
         "admin": "danny",
-        "xp": 401,
-        "coins": 18250,
-        "suggestionCount": 10,
-        "approvedSuggestionCount": 6,
+        "xp": 501,
+        "coins": 18600,
+        "suggestionCount": 16,
+        "approvedSuggestionCount": 11,
         "warnings": 11,
         "items": [
             "cookie",
             "cookie",
-            "pizza"
+            "pizza",
+            "fortune cookie"
         ],
         "houses": [],
         "weapons": [

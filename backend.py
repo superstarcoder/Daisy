@@ -11,7 +11,7 @@ from keras.models import load_model
 model = load_model('chatbot_model.h5')
 import json
 import random
-intents = json.loads(open('json/intents.json').read())
+#intents = json.loads(open('json/intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 with open('json/abbrevs.json') as f:
@@ -56,6 +56,7 @@ def predict_class(sentence, model):
 def getResponse(ints, intents_json, msg, varsDict):
     
 
+    print(ints)
     tag = ints[0]['intent']
     print(ints[0]['probability'])
     list_of_intents = intents_json['intents']
@@ -91,6 +92,11 @@ def getResponse(ints, intents_json, msg, varsDict):
     return result
 
 def chatbot_response(msg, varsDict):
+    global words, classes
+    intents = json.loads(open('json/intents.json').read())
+    model = load_model('chatbot_model.h5')
+    words = pickle.load(open('words.pkl','rb'))
+    classes = pickle.load(open('classes.pkl','rb'))
 #read json
     
 
