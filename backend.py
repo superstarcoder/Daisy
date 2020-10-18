@@ -65,6 +65,10 @@ def predict_class(sentence, model):
 def getResponse(ints, intents_json, msg, varsDict):
     
 
+    print(ints)
+    if ints == []:
+        return "//confused"
+
     tag = ints[0]['intent']
     print(ints[0]['probability'])
     list_of_intents = intents_json['intents']

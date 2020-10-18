@@ -82,8 +82,7 @@
                 "how do i call you?"
             ],
             "responses": [
-                "Danny didn't give me a name yet haha",
-                "i still have no idea lol"
+                "my name is Daisy! How are u?"
             ]
         },
         {
@@ -358,6 +357,20 @@
             ],
             "id": 545063650088452127,
             "tag": "daisyIsFunny"
+        },
+        {
+            "patterns": [
+                "im doing good too",
+                "im doing fine",
+                "im doing great"
+            ],
+            "responses": [
+                "thats good to hear!",
+                "great im glad to hear that",
+                "wow thats nice"
+            ],
+            "id": 545063650088452127,
+            "tag": "howUserIsDoing"
         }
     ]
 }

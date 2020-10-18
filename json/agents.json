@@ -57,10 +57,10 @@
         "trophies": []
     },
     "545063650088452127": {
-        "xp": 0,
-        "coins": 0,
-        "suggestionCount": 0,
-        "approvedSuggestionCount": 0,
+        "xp": 20,
+        "coins": 100,
+        "suggestionCount": 1,
+        "approvedSuggestionCount": 1,
         "warnings": 0,
         "items": [],
         "houses": [],
