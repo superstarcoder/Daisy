@@ -289,6 +289,19 @@
             ],
             "id": 545063650088452127,
             "tag": "money"
+        },
+        {
+            "patterns": [
+                "damn",
+                "whoaw",
+                "thats cool"
+            ],
+            "responses": [
+                "lol yessirrrrrrr",
+                "yuppieee"
+            ],
+            "id": 545063650088452127,
+            "tag": "casualDamnStuff"
         }
     ]
 }

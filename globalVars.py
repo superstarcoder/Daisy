@@ -7,6 +7,7 @@ chain = {} #for ongoing chains in other commands that require more than one mess
 suggestion = {} #for ongoing suggestion requests
 silence = [] #to those whom the "idk" is too much
 fight = [] #for players to fight
+alreadyImported = False #makes importing stuff easier for admin.py
 #fight has dicts having the following format:
 #{gamestate:"waiting/host turn/not host turn", waitingFor: id, host: id, id: [weapon, health, defense, energy, bet amt], id: [weapon, health, defense, energy, bet amt.]}
 

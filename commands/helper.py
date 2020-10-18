@@ -24,7 +24,7 @@ class HelpCog(commands.Cog):
             embed=discord.Embed(color=0x0080ff)
             embed.add_field(name="?suggest", value="suggest some data to daisy bot, and also earn some coins", inline=True)
             embed.add_field(name="?profile", value="see your coins and your stats", inline=True)
-            embed.add_field(name="?shop", value="buy some item from the biggest shop in town", inline=True)
+            embed.add_field(name="?shop", value="buy some good stuff from the biggest supermarket in town", inline=True)
             await message.channel.send(embed=embed)
 
         elif msg[1] == "admin":
