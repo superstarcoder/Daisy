@@ -12,8 +12,7 @@ class ChatCog(commands.Cog):
 
     @commands.Cog.listener()
     async def on_message(self, message):
-        confused = ["wdym", "lol what", "huh", "im kinda lost rn", "what do you mean", "wait what",
-                    "lol what are you trying to say"]
+        confused = ["oh uhhh","mm","uhh","wym","mmmmm","oh ok"]
         msg = message.content.split()
         msg2 = message.content
         if message.author == self.bot.user:

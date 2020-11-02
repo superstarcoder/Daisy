@@ -16,9 +16,9 @@ def embedMsg(description):
     return embed
 
 
-class joinSquadCog(commands.Cog):
-    def __init__(self, bot):
-        self.bot = bot
+class adminCog(commands.Cog):
+    def __init__(self, client):
+        self.bot = client
 
     @commands.Cog.listener()
     async def on_message(self, message):
@@ -62,8 +62,12 @@ class joinSquadCog(commands.Cog):
             try:
                 suggestions = gv.readFile("suggestions.json")
                 userid = list(suggestions)[0]
-                user = self.bot.get_user(int(userid))
-                user = user.name + "#" + user.discriminator
+                try:
+                    #user = self.bot.get_user(383123732371210241)
+                    user = self.bot.get_user(int(userid))
+                    user = user.name + "#" + user.discriminator
+                except AttributeError:
+                    user = "ERROR FINDING USERNAME"
 
                 embed = discord.Embed(color=0x00ff00, description="oh")
                 embed.add_field(name="ID", value=userid, inline=False)
@@ -87,7 +91,7 @@ class joinSquadCog(commands.Cog):
 
         # ?approve [coins] [tag] [update automatically yes/no] [comment (default already exists)]
         elif message.author.id == gv.admin and message.content.startswith("?approve"):
-            if len(message.content.split()) >= 4:
+            if len(message.content.split()) >= 4 and message.content.split()[3] in ["yes","no"]:
                 msg = message.content.split()
 
                 # store arguments to vars
@@ -120,7 +124,14 @@ class joinSquadCog(commands.Cog):
                 gv.writeFile("agents.json", agents)
 
                 # message user with comment
-                await self.bot.get_user(int(userid)).send(comment)
+                try:
+                    await self.bot.get_user(int(userid)).send(comment)
+                except:
+                    try:
+                        await message.channel.send(comment)
+                    except:
+                        print("ERROR TRYING TO SEND MESSAGE")
+
 
                 # add tag to suggestion dict
                 suggestions[userid][0]["tag"] = tag
@@ -176,7 +187,14 @@ class joinSquadCog(commands.Cog):
                 comment = "your suggestion has been rejected. comment from admin: `%s`" % " ".join(message.content.split()[1:])
             else:
                 comment = "your suggestion has been rejected. try suggesting one that will be useful for me to learn from! :D"
-            await self.bot.get_user(int(userid)).send(comment)
+            try:
+                await self.bot.get_user(int(userid)).send(comment)
+            except:
+                try:
+                    await message.channel.send(comment)
+                except:
+                    print("ERROR TRYING TO SEND MESSAGE")
+
 
         # ?warn [warnID] [warnValue] [comment (optional)]
         elif message.author.id == gv.admin and message.content.startswith("?warn"):
@@ -196,7 +214,15 @@ class joinSquadCog(commands.Cog):
             gv.writeFile("agents.json", agents)
 
             # dm user that needs to be warned
-            await self.bot.get_user(int(warnid)).send(comment)
+            #await self.bot.get_user(int(warnid)).send(comment)
+            try:
+                await self.bot.get_user(int(warnid)).send(comment)
+            except:
+                try:
+                    await message.channel.send(comment)
+                except:
+                    print("ERROR TRYING TO SEND MESSAGE")
+
         ###############################################################################################################################################
         # ban [userid]
         elif message.author.id == gv.admin and message.content.startswith("?ban"):
@@ -333,4 +359,4 @@ class joinSquadCog(commands.Cog):
 
 
 def setup(bot):
-    bot.add_cog(joinSquadCog(bot))
+    bot.add_cog(adminCog(bot))

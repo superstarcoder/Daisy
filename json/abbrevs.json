@@ -1,7 +1,8 @@
 {
-    	"what is up": ["wassup", "sup", "wutup","waddup"],
+    	"what is up": ["wassup", "sup", "wutup","waddup", "heyo", "eyo"],
     	"alright": ["aight"],
     	"okay": ["bet"],
+	"nice":["noice"],
 		"okay cool": ["kk"],
 		"laugh":["lol","lmao","lmfao","xd", "exdee","xdee"],
 		"bye":["bai","cya","adios","ttyl", "gn"],
@@ -9,8 +10,21 @@
 		"you are":["ur", "you're"],
 		"i know right":["ikr"],
 		"stupid":["stoopid"],
+		"dumb":["dum"],
 		"you are welcome":["yw"],
 		"happy birthday":["hbd"],
 		"minecraft":["mc"],
-		"birthday":["bday"]
+		"birthday":["bday"],
+		"you are": ["ur", "you're"],
+		"smh": ["shaking my head"],
+		"what do you mean": ["wym", "wdym"],
+		"i am":["im","i'm"],
+		"what is": ["whats"],
+		"theres": ["there is"],
+		"yeah": ["yuh", "ye", "yup"],
+		"right now": ["rn"],
+		"that is": ["thats"],
+		"what is": ["whats"],
+		"cool":["kewl","kool"],
+		"oh my god":["omg"]
 }

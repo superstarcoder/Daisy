@@ -11,12 +11,16 @@
         "trophies": []
     },
     "308404126830559233": {
-        "xp": 24,
-        "coins": 500,
-        "suggestionCount": 1,
-        "approvedSuggestionCount": 1,
+        "xp": 76,
+        "coins": 460,
+        "suggestionCount": 4,
+        "approvedSuggestionCount": 4,
         "warnings": 0,
-        "items": [],
+        "items": [
+            "cookie",
+            "pizza",
+            "fortune cookie"
+        ],
         "houses": [],
         "weapons": [],
         "trophies": []
@@ -57,8 +61,140 @@
         "trophies": []
     },
     "545063650088452127": {
-        "xp": 20,
-        "coins": 100,
+        "xp": 317,
+        "coins": 51300,
+        "suggestionCount": 10,
+        "approvedSuggestionCount": 9,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "432685151760154625": {
+        "xp": 34,
+        "coins": 170,
+        "suggestionCount": 3,
+        "approvedSuggestionCount": 3,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "383123732371210241": {
+        "xp": 54,
+        "coins": 270,
+        "suggestionCount": 6,
+        "approvedSuggestionCount": 5,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "598569003367006211": {
+        "xp": 93,
+        "coins": 290,
+        "suggestionCount": 6,
+        "approvedSuggestionCount": 6,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "388897669088804864": {
+        "xp": 0,
+        "coins": 0,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "536450301335437312": {
+        "xp": 0,
+        "coins": 0,
+        "suggestionCount": 0,
+        "approvedSuggestionCount": 0,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "366012743360446466": {
+        "xp": 16,
+        "coins": 80,
+        "suggestionCount": 3,
+        "approvedSuggestionCount": 1,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "484179940594548747": {
+        "xp": 91,
+        "coins": 455,
+        "suggestionCount": 7,
+        "approvedSuggestionCount": 6,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "553444085126397983": {
+        "xp": 78,
+        "coins": 390,
+        "suggestionCount": 5,
+        "approvedSuggestionCount": 5,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "402169399202676737": {
+        "xp": 32,
+        "coins": 160,
+        "suggestionCount": 2,
+        "approvedSuggestionCount": 2,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "766744583681343508": {
+        "xp": 45,
+        "coins": 225,
+        "suggestionCount": 3,
+        "approvedSuggestionCount": 3,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "547648688357376000": {
+        "xp": 16,
+        "coins": 80,
+        "suggestionCount": 1,
+        "approvedSuggestionCount": 1,
+        "warnings": 0,
+        "items": [],
+        "houses": [],
+        "weapons": [],
+        "trophies": []
+    },
+    "340294146130444299": {
+        "xp": 14,
+        "coins": 70,
         "suggestionCount": 1,
         "approvedSuggestionCount": 1,
         "warnings": 0,

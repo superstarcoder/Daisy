@@ -76,8 +76,11 @@ def getName(userid, bot):
 
 
 def embedProfile(userid, bot):
-    user = bot.get_user(userid)
-    username = user.name + "#" + user.discriminator
+    try:
+        user = bot.get_user(userid)
+        username = user.name + "#" + user.discriminator
+    except:
+        username = "user"
     userid = str(userid)
     agents = gv.readFile("agents.json")
 
@@ -221,11 +224,17 @@ class ShopCog(commands.Cog):
                 embed = embedShop(1)
             await message.channel.send(embed=embed)
 
-        elif message.content.startswith("?profile") and (not (message.author.id in gv.chain)):
+        elif message.content.startswith("?profile") and len(message.content.split()) == 1 and (not (message.author.id in gv.chain)):
             embed = embedProfile(message.author.id, self.bot)
             await message.channel.send(embed=embed)
             # img = discord.File("images/cool.jpg", filename="test")
             # await channel.send("content", file=img)
+
+        elif message.content.startswith("?profile") and len(message.content.split()) == 2 and (not (message.author.id in gv.chain)):
+            #<@!id>
+            userid = message.content.split()[1][3:-1]
+            embed = embedProfile(userid, self.bot)
+            await message.channel.send(embed=embed)
 
 
 
@@ -311,10 +320,11 @@ class ShopCog(commands.Cog):
                 await message.channel.send("please type `?fight [player] [coins that you bet]` to fight")
 
             # remove item from person's inventory
-            for x in ["items", "weapons", "trophies, houses"]:
+            for x in ["items", "weapons", "trophies", "houses"]:
                 try:
                     agents[str(message.author.id)][x].remove(item)
                 except ValueError:
+                    print("VALUE ERROR???")
                     pass  # do nothing!
 
             # add xp to player

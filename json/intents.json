@@ -53,12 +53,17 @@
                 "laugh",
                 "you are funny",
                 "just kidding",
-                "i am joking"
+                "i am joking",
+                "i am just kidding"
             ],
             "responses": [
                 "hahahahaha",
-                "you are so funny!",
-                "haha u make me laugh",
+                "lol ur funny!",
+                "lmfaoo",
+                "LOL",
+                "ROFL",
+                ":laughing:",
+                "lmaooooo",
                 "xD"
             ]
         },
@@ -154,10 +159,12 @@
         {
             "tag": "compliment",
             "patterns": [
-                "you are so cool",
+                "you are cool",
                 "you are amazing",
-                "you are so smart",
-                "you are so intelligent"
+                "you are smart",
+                "you are the best",
+                "you are so intelligent",
+                "you are big brain"
             ],
             "responses": [
                 "haha thanks",
@@ -296,7 +303,8 @@
             "patterns": [
                 "damn",
                 "whoaw",
-                "thats cool"
+                "that is cool",
+                "nice laugh"
             ],
             "responses": [
                 "lol yessirrrrrrr",
@@ -360,9 +368,9 @@
         },
         {
             "patterns": [
-                "im doing good too",
-                "im doing fine",
-                "im doing great"
+                "i am doing good too",
+                "i am doing fine",
+                "i am doing great"
             ],
             "responses": [
                 "thats good to hear!",
@@ -371,6 +379,481 @@
             ],
             "id": 545063650088452127,
             "tag": "howUserIsDoing"
+        },
+        {
+            "patterns": [
+                "what is your favorite valorant gun",
+                "what is your favorite valorant agent",
+                "what is your favorite valorant map"
+            ],
+            "responses": [
+                "Vandal/Phantom",
+                "Omen",
+                "Icebox"
+            ],
+            "id": 383123732371210241,
+            "tag": "valorantThing"
+        },
+        {
+            "patterns": [
+                "What is your favorite video game",
+                "whats your favorite game",
+                "what game do u like"
+            ],
+            "responses": [
+                "Minecraft!!!"
+            ],
+            "id": 598569003367006211,
+            "tag": "favVidGame"
+        },
+        {
+            "patterns": [
+                "you suck",
+                "you smell",
+                "you stink",
+                "you are so stupid"
+            ],
+            "responses": [
+                "thats mean :`("
+            ],
+            "id": 598569003367006211,
+            "tag": "thatsMeanBigSad"
+        },
+        {
+            "patterns": [
+                "who is your father",
+                "who coded you",
+                "who is ur creator"
+            ],
+            "responses": [
+                "<@!545063650088452127>"
+            ],
+            "id": 598569003367006211,
+            "tag": "whoDaCreator"
+        },
+        {
+            "patterns": [
+                "whats your favorite pizza",
+                "what pizza do u like",
+                "what pizza topping is ur favorite"
+            ],
+            "responses": [
+                "pizza of the b o n e l e s s variety"
+            ],
+            "id": 598569003367006211,
+            "tag": "favPizza"
+        },
+        {
+            "patterns": [
+                "can u play minecraft with me",
+                "can you play minecraft",
+                "please play minecraft with me"
+            ],
+            "responses": [
+                "I can't. Im a bot and i have no idea how to do the captchas. :("
+            ],
+            "id": 598569003367006211,
+            "tag": "playMC"
+        },
+        {
+            "patterns": [
+                "who's the omain",
+                "who's the moooooooo-die",
+                "who's dennis' babe"
+            ],
+            "responses": [
+                "Moodie",
+                "MaMoodie",
+                "Sexy Mahmood",
+                "Abdullah \u2764\ufe0f"
+            ],
+            "id": 484179940594548747,
+            "tag": "simpForMoodie"
+        },
+        {
+            "patterns": [
+                "bruh moment",
+                "shaking my head",
+                "bruh",
+                "breh",
+                "bruhhh"
+            ],
+            "responses": [
+                "bruh moment indeed",
+                "lol bruh",
+                "breh",
+                "bruh exdee",
+                "bruhhh indeed",
+                "i agree"
+            ],
+            "id": 545063650088452127,
+            "tag": "bruhMoment"
+        },
+        {
+            "patterns": [
+                "i am hungry",
+                "i want food",
+                "yummy"
+            ],
+            "responses": [
+                "mmmmmmm me too",
+                "ur always hungry"
+            ],
+            "id": 553444085126397983,
+            "tag": "foodCuzHungry"
+        },
+        {
+            "patterns": [
+                "are you nice",
+                "are you cool",
+                "are you my friend"
+            ],
+            "responses": [
+                "no you suck"
+            ],
+            "id": 402169399202676737,
+            "tag": "areYaNice"
+        },
+        {
+            "patterns": [
+                "daisy ur trash",
+                "garbo bot",
+                "garbage bot"
+            ],
+            "responses": [
+                "woah",
+                "thas not kool"
+            ],
+            "id": 366012743360446466,
+            "tag": "garbageBigSad"
+        },
+        {
+            "patterns": [
+                "who is smart",
+                "who is sexy",
+                "who is smexy"
+            ],
+            "responses": [
+                "niranjan",
+                "senpai naan",
+                "C(x) = Fuzion"
+            ],
+            "id": 484179940594548747,
+            "tag": "niriExDee"
+        },
+        {
+            "patterns": [
+                "i am bored",
+                "there is nothing to do",
+                "i am lost"
+            ],
+            "responses": [
+                "then do nothing",
+                "be like that",
+                "rippp you can try talking to me if you want"
+            ],
+            "id": 553444085126397983,
+            "tag": "reallyBored"
+        },
+        {
+            "patterns": [
+                "monkeys",
+                "ooh ooh ah ah",
+                "i love monkeys"
+            ],
+            "responses": [
+                "\ud83d\udc12",
+                "\ud83d\udc35"
+            ],
+            "id": 553444085126397983,
+            "tag": "monkeyyy"
+        },
+        {
+            "patterns": [
+                "kiss me",
+                "will you marry me daisy",
+                "date me baby",
+                "you and me are meant to be",
+                "you are cute"
+            ],
+            "responses": [
+                "no i'm a flower",
+                "no im taken",
+                "no my mama says no",
+                "okay sure",
+                "stop ur making me blush"
+            ],
+            "id": 484179940594548747,
+            "tag": "dateMeByDenny"
+        },
+        {
+            "patterns": [
+                "who is a skeleton",
+                "who is denny's waifu",
+                "who is your papa"
+            ],
+            "responses": [
+                "danny",
+                "smexy danny",
+                "pastry master"
+            ],
+            "id": 484179940594548747,
+            "tag": "skeletonExdee"
+        },
+        {
+            "patterns": [
+                "Is your code open source",
+                "can i see your code",
+                "show me the code",
+                "is daisy FOSS?",
+                "DAISY CODE WHERE?"
+            ],
+            "responses": [
+                "you can view my source code here! https://github.com/superstarcoder/Daisy"
+            ],
+            "id": 308404126830559233,
+            "tag": "whereIsTheCode"
+        },
+        {
+            "patterns": [
+                "What is your favorite thing to do",
+                "who made you",
+                "why were you made"
+            ],
+            "responses": [
+                "idk",
+                "Danny",
+                "idk"
+            ],
+            "id": 383123732371210241,
+            "tag": "whoMadeYa"
+        },
+        {
+            "patterns": [
+                "who created you",
+                "why did they create you",
+                "how were you created"
+            ],
+            "responses": [
+                "Danny",
+                "idk he was bored",
+                "idk like codes and stuff"
+            ],
+            "id": 383123732371210241,
+            "tag": "whoCreatedYaGamer"
+        },
+        {
+            "patterns": [
+                "what do you do when you are bored",
+                "what is your favorite hobby",
+                "how do you pass time"
+            ],
+            "responses": [
+                "idk I jus vibe with people",
+                "idk im a bot",
+                "idk just sit there"
+            ],
+            "id": 383123732371210241,
+            "tag": "whenYouAreBored"
+        },
+        {
+            "patterns": [
+                "candy",
+                "sweets",
+                "junk food"
+            ],
+            "responses": [
+                "caramel all the way",
+                "i\u2019m a die hard chocolate stan",
+                "candy is for suckers (haha get it)"
+            ],
+            "id": 553444085126397983,
+            "tag": "candyy"
+        },
+        {
+            "patterns": [
+                "venmo me",
+                "send me money",
+                "send me"
+            ],
+            "responses": [
+                "sure its on its way",
+                "lmao k",
+                "what for",
+                "no",
+                "sending $119.87 from account ending in #**7896 to your account"
+            ],
+            "id": 402169399202676737,
+            "tag": "venmoThing"
+        },
+        {
+            "patterns": [
+                "where do you live",
+                "where are you",
+                "where were you born"
+            ],
+            "responses": [
+                "i live in your computer!"
+            ],
+            "id": 766744583681343508,
+            "tag": "whereYaAt"
+        },
+        {
+            "patterns": [
+                "wanna voice chat",
+                "down for a voice chat",
+                "you free to voice chat right now"
+            ],
+            "responses": [
+                "i guess i would lol but my voice is ugly ~~also i have no voice~~"
+            ],
+            "id": 766744583681343508,
+            "tag": "voiceChat"
+        },
+        {
+            "patterns": [
+                "How can I keep up with Daisy news?",
+                "Is there a discord server for Daisy?",
+                "Daisy discord server???!?!?!"
+            ],
+            "responses": [
+                "You can check out the official Daisy discord server right here! https://discord.gg/CtWh6CnWaV"
+            ],
+            "id": 308404126830559233,
+            "tag": "daisyServer"
+        },
+        {
+            "patterns": [
+                "are you hot",
+                "what do you look like",
+                "how do you look"
+            ],
+            "responses": [
+                "\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2588\u2588\u2588\u2588\u2580\u2580\u2580\u2580\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2580\u2588\u2584\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2584\u2588\u2588\u2580\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2588\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2584\u2588\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2584\u2591\u2591\u2591\u2591\u2591\n\u2591\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2584\u2591\u2591\u2591\u2591\n\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2584\u2591\u2591\u2591\n\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2584\u2591\u2591\u2580\u2588\u2591\u2591\u2591\n\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2588\u2584\u2591\u2591\u2588\u2588\u2591\u2591\n\u2588\u2591\u2591\u2591\u2591\u2591\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2584\u2591\n\u2588\u2591\u2591\u2591\u2591\u2591\u2580\u2580\u2580\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2588\u2591\n\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2584\u2584\u2588\u2588\u2588\u2588\u2588\u2580\u2591\u2588\u2584\n\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2584\u2584\u2584\u2588\u2588\u2588\u2588\u2588\u2588\u2580\u2580\u2580\u2580\u2580\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2588\n\u2588\u2591\u2591\u2591\u2591\u2584\u2588\u2588\u2588\u2588\u2588\u2580\u2580\u2580\u2580\u2580\u2591\u2584\u2584\u2584\u2588\u2588\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2588\n\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2588\n\u2580\u2588\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2580\n\u2591\u2580\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2588\u2591\n\u2591\u2591\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2588\u2591\n\u2591\u2591\u2591\u2588\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2588\u2591\u2591\n\u2591\u2591\u2591\u2591\u2580\u2588\u2588\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2588\u2580\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2588\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2588\u2580\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2588\u2584\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2584\u2584\u2588\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2580\u2588\u2588\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2584\u2588\u2580\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\n\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2588\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591\u2591"
+            ],
+            "id": 545063650088452127,
+            "tag": "hugeTextArt"
+        },
+        {
+            "patterns": [
+                "what do you like",
+                "what do you love",
+                "what is something that you like to do"
+            ],
+            "responses": [
+                "i like to annoy humans!! theyr very funny",
+                "i annoy humans in my free time. haha jk i love all humans"
+            ],
+            "id": 545063650088452127,
+            "tag": "funnyHuman"
+        },
+        {
+            "patterns": [
+                "who is albert einstein's indian son",
+                "who is jeff besos' indian son",
+                "who is donald trump's worst enemy"
+            ],
+            "responses": [
+                "naan",
+                "c(x) = fuzion + brainpower",
+                "sexy niranjan who literally is hotter than the sun"
+            ],
+            "id": 484179940594548747,
+            "tag": "niranjanIsTheSun"
+        },
+        {
+            "patterns": [
+                "what happened",
+                "what has happened",
+                "what has happened"
+            ],
+            "responses": [
+                "robots taking over humans will happen",
+                "nothing happened",
+                "my brain has become bigger"
+            ],
+            "id": 545063650088452127,
+            "tag": "whatHappened"
+        },
+        {
+            "patterns": [
+                "talk to daisy",
+                "chat with daisy",
+                "have fun with her"
+            ],
+            "responses": [
+                "yes talk to me!!",
+                "HELLO %name% let us talk",
+                "%name% is smarter than an average human!"
+            ],
+            "id": 545063650088452127,
+            "tag": "talkToDaisy"
+        },
+        {
+            "patterns": [
+                "are you a cool kid",
+                "you are a cool kid",
+                "cool kid gang"
+            ],
+            "responses": [
+                "i am a very kewl kid \ud83d\ude0e",
+                "im so so cool",
+                "im the coolest robot. you're almost as kool as me! %name%"
+            ],
+            "id": 545063650088452127,
+            "tag": "koolKid"
+        },
+        {
+            "patterns": [
+                "what do you mean",
+                "what are you talking about",
+                "i do not understand"
+            ],
+            "responses": [
+                "idk what im saying lol",
+                "lmao idk",
+                "mmm idk"
+            ],
+            "id": 545063650088452127,
+            "tag": "wdymLol"
+        },
+        {
+            "patterns": [
+                "guys i am so excited",
+                "what the heck",
+                "oh my god"
+            ],
+            "responses": [
+                "poggers"
+            ],
+            "id": 547648688357376000,
+            "tag": "minzuiDaBinz"
+        },
+        {
+            "patterns": [
+                "nice to meet you",
+                "glad to meet you",
+                "it is a pleasure to meet you"
+            ],
+            "responses": [
+                "nice to meet you too! %name%",
+                "im pleased to meet you! %name%"
+            ],
+            "id": 545063650088452127,
+            "tag": "pleasedToMeet"
+        },
+        {
+            "patterns": [
+                "what is mayonaise to you",
+                "what are your thoughts on mayonaise",
+                "why is mayonaise"
+            ],
+            "responses": [
+                "mayonaise is a condiment used for food but can also be eaten straight from the bottle (Britanica Encyclopedia",
+                "2019)"
+            ],
+            "id": 340294146130444299,
+            "tag": "mayonaise"
         }
     ]
 }

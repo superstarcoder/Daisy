@@ -34,8 +34,9 @@ class AgentsCog(commands.Cog):
                 embed = embedMsg("""%s alrightt. tell me what the input should be. Please note:
 
                         -minimum 3 inputs required
+                        -PLEASE DO NOT USE ABBREVIATIONS SUCH AS: you're or they're or ur. just write it down in complete words
                         -input must be seperated by commas
-                        -keep your inputs as diverse as possible
+                        -keep your inputs as diverse as possible (say the same thing but in different ways)
                         -nothing inappropriate
     example:
     `hey who are you, what are you, are you a robot?`""" % message.author.mention)
